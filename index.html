@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Shehta | Backend & DevOps Engineer</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --light: #ecf0f1;
+            --dark: #1a252f;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            width: 85%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        h2 {
+            color: var(--secondary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        nav {
+            background: var(--dark);
+            padding: 1rem 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav li {
+            margin: 0 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        section {
+            padding: 2rem 0;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .skill-category {
+            background: var(--light);
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 0.5rem 0;
+        }
+        
+        .tech-tag {
+            background: var(--secondary);
+            color: white;
+            padding: 0.3rem 0.6rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+        
+        .achievement {
+            display: flex;
+            align-items: center;
+            margin: 1rem 0;
+        }
+        
+        .achievement-icon {
+            font-size: 2rem;
+            color: var(--secondary);
+            margin-right: 1rem;
+        }
+        
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ahmed Shehta</h1>
+            <p class="tagline">Backend & DevOps Engineer</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>Professional Summary</h2>
+            <p>DevOps and Backend Engineer with 2 years of experience in deploying and developing web applications, designing RESTful APIs, and managing cloud infrastructure. Proficient in Docker, CI/CD, and Python automation.</p>
+            
+            <div class="achievement">
+                <div class="achievement-icon">✓</div>
+                <div>
+                    <h3>85% Cost Reduction</h3>
+                    <p>Reduced hosting costs by over 85% through infrastructure migration from Azure to Hostinger VPS ($87 → $10/month)</p>
+                </div>
+            </div>
+            
+            <div class="achievement">
+                <div class="achievement-icon">⚡</div>
+                <div>
+                    <h3>40% Performance Boost</h3>
+                    <p>Automated report generation processes using Python, improving reporting speed by 40%</p>
+                </div>
+            </div>
+            
+            <div class="achievement">
+                <div class="achievement-icon">📊</div>
+                <div>
+                    <h3>50% Server Load Reduction</h3>
+                    <p>Separated database from application server to enable horizontal scaling, reducing CPU and memory load by 50%</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python (Advanced)</li>
+                        <li>Java (Advanced)</li>
+                        <li>JavaScript (Intermediate)</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <ul>
+                        <li>Flask, Django</li>
+                        <li>Docker, Nginx</li>
+                        <li>Git/GitHub</li>
+                        <li>Postman</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>PostgreSQL</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>Azure Cosmos DB</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Platforms</h3>
+                    <ul>
+                        <li>Azure Cloud</li>
+                        <li>Ubuntu</li>
+                        <li>GitHub Actions</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>Backend Developer | Tatbeek | Hybrid | Egypt</h3>
+            <p><em>02/2024 - Present</em></p>
+            <ul>
+                <li>Built and maintained virtual machines for scalable deployment environments</li>
+                <li>Deployed and managed web applications through optimized CI/CD pipelines</li>
+                <li>Utilized Docker for containerization across development and production</li>
+                <li>Managed relational databases with PostgreSQL</li>
+                <li>Automated report generation processes using Python</li>
+            </ul>
+        </section>
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <div class="project-card">
+                <h3>Seamless Flask Deployment</h3>
+                <p><em>Jan 2025 - Personal Project</em></p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">GitHub Actions</span>
+                    <span class="tech-tag">Azure VM</span>
+                    <span class="tech-tag">uWSGI</span>
+                    <span class="tech-tag">Docker</span>
+                </div>
+                <ul>
+                    <li>Developed Flask application with CI/CD using GitHub Actions</li>
+                    <li>Configured production-ready deployment with uWSGI and Nginx</li>
+                    <li>Conducted performance testing using Apache Benchmark</li>
+                </ul>
+                <a href="https://github.com/developer-ahmed-shehta" target="_blank">View on GitHub</a>
+            </div>
+            
+            <div class="project-card">
+                <h3>E-Commerce APP</h3>
+                <p><em>Aug 2024 - Sep 2024 - Personal Project</em></p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">SQLAlchemy</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">Bootstrap</span>
+                </div>
+                <ul>
+                    <li>Implemented authentication and authorization systems</li>
+                    <li>Designed complex relational database structure with ORM</li>
+                    <li>Applied OOP principles for modular, scalable code</li>
+                </ul>
+                <a href="https://github.com/developer-ahmed-shehta" target="_blank">View on GitHub</a>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out for collaboration or opportunities:</p>
+            <ul>
+                <li>Email: <a href="mailto:ahmedshehta0123@gmail.com">ahmedshehta0123@gmail.com</a></li>
+                <li>Phone: +20 106 268 6943</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-shehta-7b4262201/" target="_blank">Ahmed Shehta</a></li>
+                <li>GitHub: <a href="https://github.com/developer-ahmed-shehta" target="_blank">developer-ahmed-shehta</a></li>
+                <li>HackerRank: <a href="https://www.hackerrank.com/profile/ahmedshehta0123" target="_blank">ahmedshehta0123</a></li>
+            </ul>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ahmed Shehta. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
